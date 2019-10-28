@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>XrmHero.Extensions.WorkflowActivity</id>
+    <version>0.0.0</version>
+    <title>XrmHero.Extensions.WorkflowActivity</title>
+    <authors>David Jenkins (david@xrmhero.tools)</authors>
+    <owners>Xrm Hero Tools (info@xrmhero.tools)</owners>
+    <!--<license type="expression">MIT</license>-->
+    <license type="file">LICENSE.txt</license>
+    <projectUrl>https://github.com/XrmHeroTools/XrmHero.Extensions</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Base class for implementing well-designed workflow activities.</description>
+    <copyright>Copyright © 2019 Xrm Hero Tools (info@xrmhero.tools). All rights reserved.</copyright>
+    <dependencies>
+      <dependency id="Microsoft.CrmSdk.CoreAssemblies" version="9.0" />
+      <dependency id="Microsoft.CrmSdk.Workflow" version="9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\XrmHero.Extensions\*.cs" target="content/XrmHero.Extensions.WorkflowActivity" />
+    <file src="*.cs" exclude="*Sample*" target="content/XrmHero.Extensions.WorkflowActivity" />
+    <file src="LICENSE.txt" target="" />
+  </files>
+</package>

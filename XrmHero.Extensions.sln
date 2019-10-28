@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XrmHero.Extensions", "XrmHero.Extensions\XrmHero.Extensions.shproj", "{32B206D9-F65D-4C9C-B133-D6E4F49688F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmHero.Extensions.Plugin", "XrmHero.Extensions.Plugin\XrmHero.Extensions.Plugin.csproj", "{1EABC8F8-626A-4027-B4C1-34A9D1CBDECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmHero.Extensions.WorkflowActivity", "XrmHero.Extensions.WorkflowActivity\XrmHero.Extensions.WorkflowActivity.csproj", "{02A903B3-4F87-4AD6-A04E-9414A0432346}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validation", "Validation", "{0BF29820-06D9-4631-A0B6-2C64066F2AA3}"
+	ProjectSection(SolutionItems) = preProject
+		nuspec.xsd = nuspec.xsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XrmHero.Extensions\XrmHero.Extensions.projitems*{02a903b3-4f87-4ad6-a04e-9414a0432346}*SharedItemsImports = 4
+		XrmHero.Extensions\XrmHero.Extensions.projitems*{1eabc8f8-626a-4027-b4c1-34a9d1cbdece}*SharedItemsImports = 4
+		XrmHero.Extensions\XrmHero.Extensions.projitems*{32b206d9-f65d-4c9c-b133-d6e4f49688f8}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EABC8F8-626A-4027-B4C1-34A9D1CBDECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EABC8F8-626A-4027-B4C1-34A9D1CBDECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EABC8F8-626A-4027-B4C1-34A9D1CBDECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EABC8F8-626A-4027-B4C1-34A9D1CBDECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A903B3-4F87-4AD6-A04E-9414A0432346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A903B3-4F87-4AD6-A04E-9414A0432346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A903B3-4F87-4AD6-A04E-9414A0432346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A903B3-4F87-4AD6-A04E-9414A0432346}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55B6B7DD-B9D3-445D-AA1A-0A087DCA0A77}
+	EndGlobalSection
+EndGlobal
