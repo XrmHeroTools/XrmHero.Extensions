@@ -9,6 +9,7 @@
     <!--<license type="expression">MIT</license>-->
     <license type="file">LICENSE.txt</license>
     <projectUrl>https://github.com/XrmHeroTools/XrmHero.Extensions</projectUrl>
+    <repository type="git" url="https://github.com/XrmHeroTools/XrmHero.Extensions.git" />
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Base class for implementing well-designed plugins.</description>
     <copyright>Copyright © 2019 Xrm Hero Tools (info@xrmhero.tools). All rights reserved.</copyright>
